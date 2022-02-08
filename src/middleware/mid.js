@@ -18,7 +18,7 @@ const userAuth = async function(req, res, next) {
 }
 module.exports = { userAuth }
 
-//Method 2---------------------------------------------------------------------------------------------
+//Method 2----------------------------------------------------------------------------------------------
 // const jwt = require("jsonwebtoken");
 // const userAuth = async function(req, res, next) {
 //     let token = req.header('Authorization');
