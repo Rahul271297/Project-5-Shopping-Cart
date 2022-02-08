@@ -7,7 +7,7 @@ const orderController = require('../controllers/orderController.js')
 const mid = require('../middleware/mid.js')
 const validator = require('../validator/validator.js')
 const router = express.Router();
-module.exports = router;
+module.exports = router; 
 
 
 
