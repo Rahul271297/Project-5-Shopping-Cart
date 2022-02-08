@@ -5,7 +5,7 @@ let phoneRegex = /^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}$/
 let emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
 
 const isValid = function(value) {
-    if (typeof value === 'undefined' || value === null) return false
+    if (typeof value === 'undefined' || value === null) return false 
     if (typeof value === "string" && value.trim().length === 0) return false
     return true;
 }
