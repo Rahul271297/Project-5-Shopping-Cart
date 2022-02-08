@@ -37,7 +37,7 @@ let uploadFile = async(file) => {
             Body: file.buffer,
         };
 
-        // Callback
+        //// Callback
         s3.upload(uploadParams, function(err, data) {
             if (err) {
                 return reject({ error: err });
